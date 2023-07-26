@@ -40,7 +40,6 @@ At the moment, only images are supported (png and jpg). You can add images to yo
 
 Make sure you have a `main.yaml` file in the root of your repository. This file contains the course files to parse:
 
-
 ```yaml
 content:
     - chapter_1.md
@@ -54,6 +53,43 @@ content:
 
 Create a zip files including all your markdown files, images, and the `main.yaml` file. Then, go to [FAUN](https://faun.dev) and upload your course.
 
-## That's it!
+Make sure that your files are in the root of the zip file.
+
+Good example:
+
+```bash
+course.zip
+├── main.yaml
+├── chapter_1.md
+├── chapter_2.md
+├── chapter_3.md
+├── chapter_4.md
+├── chapter_5.md
+├── images
+│   ├── image_1.png
+│   ├── image_2.png
+│   ├── image_3.png
+│   ├── image_4.png
+```
+
+Bad example:
+
+```bash
+course.zip
+├── course_files
+│   ├── main.yaml
+│   ├── chapter_1.md
+│   ├── chapter_2.md
+│   ├── chapter_3.md
+│   ├── chapter_4.md
+│   ├── chapter_5.md
+│   ├── images
+│   │   ├── image_1.png
+│   │   ├── image_2.png
+│   │   ├── image_3.png
+│   │   ├── image_4.png
+```
+
+## That's it 🎉
 
 That's it! Your course will be published on FAUN in a few minutes.
