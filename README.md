@@ -2,9 +2,9 @@
 
 Publishing a course on FAUN is as easy as writing markdown with some simple rules. Here are some simple steps to get you started.
 
-## 1. Use GitHub, GitLab, or BitBucket to host your course (optional)
+## 1. Use GitHub, GitLab, or BitBucket to host your course or work locally
 
-Create a new repository or clone this one.
+Create a new repository or clone this one locally.
 
 ## 2. Add your markdown files
 
