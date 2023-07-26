@@ -13,7 +13,6 @@ if condition:
     # code to execute if condition is true
 ```
 
-
 ### else Statements
 
 The `else` statement is used to execute a block of code if a condition is false. The `else` statement has the following syntax:
