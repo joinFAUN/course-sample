@@ -98,7 +98,7 @@ Make sure you have a `main.yaml` file in the root of your repository. This file 
 $> cat main.yaml
 
 ---
-content:
+include:
     - chapter_1.md
     - chapter_2.md
     - chapter_3.md
