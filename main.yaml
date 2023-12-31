@@ -1,5 +1,5 @@
 ---
-content:
+include:
   - chapter_1.md
   - chapter_2.md
   - chapter_3.md
