@@ -26,7 +26,7 @@ You can add everything to a single file, or you can add each chapter to a separa
 
 1 - Every markdown file must start with a heading. For example:
 
-✅ Good example:
+✅ Good example (starting with heading level 1 and possibly followed by heading level 2 then 3 and so on):
 
 ```markdown
 $> cat chapter_1.md
@@ -40,7 +40,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ```
 
-❌ Bad example:
+❌ Bad example (missing heading level 1 = not valid):
 
 ```markdown
 $> cat chapter_1.md
@@ -50,7 +50,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ```
 
-❌ Bad example:
+❌ Bad example (missing heading level 1 = not valid):
 
 ```markdown
 $> cat chapter_1.md
