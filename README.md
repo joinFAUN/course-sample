@@ -1,6 +1,6 @@
 # How to publish a course on FAUN
 
-TL;DR:
+**TL;DR:**
 
 Publishing a course on FAUN is as easy as writing markdown with some simple rules. Host your course on GitHub, GitLab, or BitBucket, add markdown files with proper headings, include images (png and jpg) in the "images" folder (or a folder of your choice), create a main.yaml file in the root of your repository to specify the course files, zip all the files together, and upload the zip file on FAUN to publish your course.
 
@@ -20,11 +20,11 @@ For example:
 - chapter_4.md
 - chapter_5.md
 
-You can add everything to a single file, or you can add each chapter to a separate file.
+**Note**: All your content can be also in a single markdown file.
 
 **Notes**:
 
-1 - Every markdown file must start with a heading. For example:
+**1 - Every markdown file must start with a heading. For example:**
 
 ✅ Good example (starting with heading level 1 and possibly followed by heading level 2 then 3 and so on):
 
@@ -60,7 +60,7 @@ $> cat chapter_1.md
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ```
 
-2 - Every markdown file name should end with the `.md` extension. 
+**2 - Every markdown file name should end with the `.md` extension. **
 
 ✅ Good example:
 
