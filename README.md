@@ -60,7 +60,7 @@ $> cat chapter_1.md
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ```
 
-**2 - Every markdown file name should end with the `.md` extension. **
+**2 - Every markdown file name should end with the `.md` extension.**
 
 ✅ Good example:
 
