@@ -1,4 +1,7 @@
 ---
+
+# Required
+# Chapters of your course. Use the filenames of the markdown files.
 chapters:
   - chapter_1.md
   - chapter_2.md
@@ -6,13 +9,16 @@ chapters:
   - chapter_4.md
   - chapter_5.md
 
-
-
-
-
-
-
-
+# Optional
+# Quizzes shown at the end of a specific chapter.
+# The ID of the quiz should be copied from the Quiz page.
+quizzes:
+  chapter_1.md:
+    - 785afef3-1427-499e-a67b-d9300ac42672
+    - 581607a3-1ced-4e9c-a536-7517981bf6ec
+  chapter_5.md:
+    - 438a65fb-cab1-417d-a2dc-4484e2dfe7c7
+  
 
 
 

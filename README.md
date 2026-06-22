@@ -122,6 +122,29 @@ $> cat main.yaml
 - chapter_5.md
 ```
 
+## 5. Add your quizzes
+
+If you want to add quizzes to your course, you can add them to the `main.yaml` file. For example:
+
+```yaml
+$> cat main.yaml
+---
+chapters:
+  - chapter_1.md
+  - chapter_2.md
+  - chapter_3.md
+  - chapter_4.md
+  - chapter_5.md
+quizzes:
+  chapter_1.md:
+    - 785afef3-1427-499e-a67b-d9300ac42672
+    - 581607a3-1ced-4e9c-a536-7517981bf6ec
+  chapter_5.md:
+    - 438a65fb-cab1-417d-a2dc-4484e2dfe7c7
+```
+
+The quiz IDs can be found in the Quiz page. You can only add quizzes you have created.
+
 ## 5. Zip and upload your course
 
 Create a zip files including all your markdown files, images, and the `main.yaml` file. Then, go to [FAUN](https://faun.dev) and upload your course.
