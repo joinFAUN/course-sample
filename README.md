@@ -145,7 +145,7 @@ quizzes:
 
 The quiz IDs can be found in the Quiz page. You can only add quizzes you have created.
 
-## 5. Zip and upload your course
+## 6. Zip and upload your course
 
 Create a zip files including all your markdown files, images, and the `main.yaml` file. Then, go to [FAUN](https://faun.dev) and upload your course.
 
@@ -186,6 +186,6 @@ course.zip
 │   │   ├── image_4.png
 ```
 
-## 6. That's it 🎉
+## 7. That's it 🎉
 
 That's it! Your course will be published on FAUN in a few minutes.
